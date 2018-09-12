@@ -1,0 +1,31 @@
+/*
+/* selector define a class*/
+.aClass{
+  color: red;
+}
+
+/* selector define a id*/
+#aId{
+  color: green;
+}
+
+/* id can only be used once and unique, but class is infinite */
+
+/* only the onlyH1Class in h1 tag is going to be green --
+-- make class to be more specific*/
+h1.onlyH1ClassColor{
+  color:green;
+}
+
+h1.onlyH1ClassStyle{
+  font-style: italic;
+}
+/*sudo-selector --
+--only h1 which in the state of hover will be selected*/
+h1:hover{
+  color: purple;
+}
+
+p:nth-child(3n){
+  font-style: oblique;
+}
