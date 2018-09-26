@@ -1,31 +1,54 @@
-/*
+/****************************selector***********************/
+/* id can only be used once and unique, but class is infinite */
 /* selector define a class*/
 .aClass{
   color: red;
 }
 
 /* selector define a id*/
-#aId{
+#aId p {
   color: green;
 }
 
-/* id can only be used once and unique, but class is infinite */
+p.testClass{
 
+  color:blue;
+}
+
+
+/****************************limit the realm of selector***********************/
 /* only the onlyH1Class in h1 tag is going to be green --
 -- make class to be more specific*/
 h1.onlyH1ClassColor{
   color:green;
-}
-
-h1.onlyH1ClassStyle{
   font-style: italic;
 }
-/*sudo-selector --
---only h1 which in the state of hover will be selected*/
-h1:hover{
-  color: purple;
-}
 
+/******************************sudo selector**************************/
+/*--only h1 which in the state of hover will be selected*/
+h1:hover{
+  color: purple;x
+}
+/*--only p tag which are the 3rd and 6th... will be selected*/
 p:nth-child(3n){
   font-style: oblique;
+}
+
+
+
+/*******************************week 5***************************/
+/***********float**************/
+
+#column1{
+  width:50%;
+  float:left;
+}
+#column2{
+  width: 50%;
+  float:left;
+}
+
+img {
+
+float: right;  
 }
