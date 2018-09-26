@@ -49,6 +49,21 @@ p:nth-child(3n){
 }
 
 img {
+  width: 100px;
+  float: right;
+}
 
-float: right;  
+.shortP p{
+
+  width:10%;
+float:left;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
 }
