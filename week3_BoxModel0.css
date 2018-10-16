@@ -1,0 +1,10 @@
+h1{
+  /********margin/border/padding*********/
+  border: 5px solid black;
+  /*margin: 0px;*/
+  margin-left: 30px;
+  padding: 20px;
+
+  /**************width*********************/
+  width: 180px;
+}
